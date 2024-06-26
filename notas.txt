@@ -1,0 +1,12 @@
+fusión del menú mobile
+----------------------
+archivo clase8.html: 
+separar el mobile-menu y los estilos. Fusionarlo en el archivo index.html
+  Finalmente crear archivo JS para la interactividad
+  Inactive para activar o desactivar los menús 
+  toggle para alternar la visibilidad de un elemento
+
+carrito de compras
+------------------
+archivo clase13.html:
+activar o desactivar pulsando el carrito de compras
