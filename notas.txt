@@ -10,3 +10,13 @@ carrito de compras
 ------------------
 archivo clase13.html:
 activar o desactivar pulsando el carrito de compras
+
+el método contains() devuelve un valor booleano
+* Verifica si un elemento es descendiente de otro elemento
+* Implementa funcionalidades de menús desplegables o ventanas modales
+* Detecta si un elemento está dentro de un área específica
+
+lista de productos: HTML a partir de arrays
+-------------------------------------------
+* Con Element.append() podemos agregar varios nodos y texto.
+* Con Element.appendChild() solo podemos agregar un nodo.
