@@ -1,3 +1,13 @@
+---------------------------------------------------------------------
+analizando el código
+fusion menu desktop
+fusion menu mobile
+carrito
+lista de productos
+product detail
+final code
+-----------------------------------------------------------------------
+
 fusión del menú mobile
 ----------------------
 archivo clase8.html: 
@@ -6,8 +16,8 @@ separar el mobile-menu y los estilos. Fusionarlo en el archivo index.html
   Inactive para activar o desactivar los menús 
   toggle para alternar la visibilidad de un elemento
 
-carrito de compras
-------------------
+carrito
+-------
 archivo clase13.html:
 activar o desactivar pulsando el carrito de compras
 
@@ -18,5 +28,63 @@ el método contains() devuelve un valor booleano
 
 lista de productos: HTML a partir de arrays
 -------------------------------------------
+archivo clase6.html:
 * Con Element.append() podemos agregar varios nodos y texto.
 * Con Element.appendChild() solo podemos agregar un nodo.
+
+1. crear el arrays de productos
+2. insertar los elementos en el html
+3. atajo de ciclo for es FOR OF
+
+product detail
+--------------
+CSS_MODERNO soluciona y simplifica el código
+calc() calcula el ancho de un elemento restando el padding 
+y los márgenes del ancho total disponible
+ej: width: calc(100% - 48px);
+
+HAY 2 'product-detail' uno para el carrito (que ya estaban definidos) de compras,
+                       el otro para los detalles
+
+en HTML se renombró:
+         <aside class='product-detail inactive'>  //  <aside id='shoppingCartContainer' class='inactive'>
+         <aside class='product-detail'>  //  <aside id='productDetail' class='inactive'>
+y sus respectivos cambios en el código de JS
+
+en CSS se renombró:
+los estilos de #productDetail .product-info para que solo de estilo cuando
+los detalles del producto estuvieran dentro de la información de producto
+
+se modificó padding, width, left al menu mobile
+
+final code
+----------
+Interacción entre todos los componentes
+
+Aparecen y desaparecen los productos agregados al HTML al hacer click en el componente de JS
+más los detalles del producto 
+Se usará CONDICIONALES 
+
+PULL REQUEST
+============
+
+Fusión de los componentes de la vista principal
+
+Archivos / Componentes fusionados
+-clase11.html (menu general)
+-clase7.html (menu desktop)
+-clase8.html (menu mobile)
+-clase13.html (carrito de compras)
+-clase6.html (lista de productos)
+-clase12.html (detalles de producto)
+
+Con esta fusión los usuarios pueden utilizar el menu de navegación con todos sus componentes.
+Funciona en mobile, desktop, con el carrito de compras y los detalles de un producto, 
+además de realizar la lista de productos a partir de un array (harcodeado).
+
+Todos los componentes se probaron individualmente y en conjunto para que los usuarios
+tengan una buena experiencia.
+
+
+
+
